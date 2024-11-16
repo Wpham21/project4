@@ -1,0 +1,144 @@
+h1 {
+    text-align: center;
+    color:black;
+    font-size: 2.5em;
+    margin: 1.5em;
+    font-family: "Dancing Script", cursive;
+    padding: .5em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: brown;
+}
+
+h2 {
+    font-size: 1.7em;
+    font-family: "Playwrite GB S", cursive;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 1.4em;
+    font-family: "Playwrite GB S", cursive;
+}
+h4 {
+    font-weight: 500;
+    font-family: "Playwrite GB S", cursive;
+}
+
+h5 {
+    text-align: center;
+    color:black;
+    font-size: 1.8em;
+    margin: 1.5em;
+    font-family: "Dancing Script", cursive;
+    padding: .5em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: brown;
+}
+body {
+    background-color: #e5decf;
+    margin:auto;
+    line-height: 1.3em;
+    max-width: 1000px;
+    background-image: url(arf652_1.png), url(arf652_1.png);
+    background-position: left top, bottom right;
+    background-repeat: no-repeat, no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    text-align: center;
+}
+
+a:link {
+    color:brown;
+}
+
+a:active {
+    color: white;
+}
+
+li {
+    display: inline-block;
+    margin: 1.5em;
+    font-size: 1.3em;
+    font-family: "Playwrite GB S", cursive;
+    color: brown;
+}
+
+.home {
+    top margin: 1em;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 3% 20%; 
+    padding: 1em;
+    height: 700px;
+    font-family: "Playwrite GB S", cursive;
+    line-height: 5em;
+}
+
+img {
+    width: 60%;
+
+}
+
+#text {
+    text-align: justify
+}
+
+hr{
+    margin: 1em;
+}
+.column {
+    float: left;
+    width: 50%;
+    font-size: 1.2em;
+    margin-top: .2em;
+    line-height: 1.5em;
+    text-align: left;
+    
+}
+
+.reading {
+    column-count: 2;
+    column-gap: 30px; 
+    text-align: left;
+    line-height: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+   
+    
+}
+.quote {
+    line-height: 2em;
+}
+footer{
+    color:black;
+    text-align: left;
+    font-size: .8em;
+    font-family: verdana, sans-serif;
+}
+.intro-p::first-letter {
+  font-size: 40px;
+  font-weight: bold;
+    color:red;
+}
+
+.chapter1-image {
+    float: inherit
+}
+.chapter2-image {
+    float: right;
+}
+.chapter3-image {
+    float: right;
+}
+
+.clearfix {
+    clear:both
+}
