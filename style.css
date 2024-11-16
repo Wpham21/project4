@@ -36,6 +36,11 @@ h5 {
     letter-spacing: .1em;
     color: brown;
 }
+
+h6{
+    color: brown;
+}
+
 body {
     background-color: #e5decf;
     margin:auto;
@@ -46,20 +51,36 @@ body {
     background-repeat: no-repeat, no-repeat;
 }
 
-a {
+ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 2em;
+    text-align: center;
+    background-color: #FFFDD0;
+    border-radius: 15px;
+}
+
+li a {
     text-decoration: none;
 }
 
 nav{
     text-align: center;
+    margin: 0;
+    
+}
+li a:active{
+     color:white;
 }
 
-a:link {
-    color:brown;
+
+li a:link {
+    color:white;
 }
 
-a:active {
+li a:hover {
     color: white;
+    background-color: cadetblue;
 }
 
 li {
@@ -122,6 +143,9 @@ footer{
     text-align: left;
     font-size: .8em;
     font-family: verdana, sans-serif;
+    margin: 1em;
+    line-height: .3em;
+    
 }
 .intro-p::first-letter {
   font-size: 40px;
@@ -142,3 +166,4 @@ footer{
 .clearfix {
     clear:both
 }
+
