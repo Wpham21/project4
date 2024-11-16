@@ -70,12 +70,12 @@ nav{
     
 }
 li a:active{
-     color:white;
+     color:brown;
 }
 
 
 li a:link {
-    color:white;
+    color:brown;
 }
 
 li a:hover {
